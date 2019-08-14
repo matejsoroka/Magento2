@@ -13,12 +13,12 @@ chmod u+w -R ./var ./vendor ./pub/static ./pub/media ./app/etc \
     --db-password=magento \
     --admin-firstname=Magento \
     --admin-lastname=Commerce \
-    --admin-email=user@example.com \
+    --admin-email=hi@matejsoroka.com \
     --admin-user=admin \
     --admin-password=admin123 \
     --language=en_US \
     --currency=USD \
-    --timezone=America/Chicago \
+    --timezone=Europe/Prague \
     --use-rewrites=1 \
     --backend-frontname=admin \
     --use-sample-data \
