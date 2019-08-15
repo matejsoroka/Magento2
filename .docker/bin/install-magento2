@@ -6,7 +6,7 @@ else
 fi
 chmod u+w -R ./var ./vendor ./pub/static ./pub/media ./app/etc \
 && chmod u+x ./bin/magento \
-&& php -f ./bin/magento setup:install \
+&& php -f ./bin/magento setup:install --base-url=http://localhost/ \
     --db-host=db \
     --db-name=magento \
     --db-user=magento \
